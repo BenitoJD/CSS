@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Header {
+  color: purple;
+  background-color: lawngreen;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  transition: 5s ease-in-out 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  background-color: darkgreen;
+  color: whitesmoke;
+}
